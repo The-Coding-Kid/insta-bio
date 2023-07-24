@@ -1,0 +1,87 @@
+a {
+  text-decoration: none;
+  color: black;
+  target: _blank;
+}
+
+h1 {
+  font-size: 20px;
+  color: #096b10;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: grey;
+  background: url("src/images/bg.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  margin-top: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 99;
+}
+
+header img {
+  width: 6em;
+  height: 6em;
+  border-radius: 100%;
+  border: 3px solid rgb(185, 184, 184);
+  box-shadow: rgb(28 32 93 / 24%) 0px 2px 12px 0px;
+}
+
+header h1 {
+  background: #fffa;
+  display: "inline-block";
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 0.3em 0.6em;
+  border: 2px solid #000a;
+  --webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
+
+body ul li {
+  background: #fffa;
+  list-style-type: none;
+  /* text-align: center; */
+  padding: 1em;
+  margin: 2em;
+  border-radius: 10em;
+  /* backdrop-filter: blur(10px) saturate(160%) contrast(180%); */
+  --webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
+
+body ul {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+ul li a {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a img {
+  padding-right: 0.25em;
+}
+
+.vanta {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
